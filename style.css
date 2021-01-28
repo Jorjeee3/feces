@@ -1,0 +1,94 @@
+body {
+    background-color: #fff;
+}
+
+.title {
+    margin-top: 120px;
+    font-size: 34px;
+}
+
+.underline {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 30%;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.title,
+.text {
+    text-align: center;
+}
+
+.all-faces {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40px 0 40px;
+}
+
+.face {
+    margin: 0;
+}
+
+.image-wrapper {
+    background-color: rgb(51, 146, 170);
+    width: 320px;
+    height: 320px;
+    position: relative;
+}
+
+.img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.icon-img {
+    display: none;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-img {
+    display: inline-block;
+
+}
+
+.image-wrapper:hover .icons {
+    display: inline-block;
+}
+
+.image-wrapper:hover .img{
+    display: none;
+}
+
+.face-name {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.face-job {
+    font-size: 14px;
+    margin-top: 0;
+    opacity: 0.6;
+}
+
+
+
+
+
+
